@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import WaterTracker from '../WaterTracker';
+import WaterTracker from './WaterTracker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
