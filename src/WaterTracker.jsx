@@ -70,7 +70,6 @@ export default function WaterTrackerApp() {
       });
       return { ...prev, history: keep };
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const pct = Math.min(100, Math.round((today.totalMl / state.goalMl) * 100));
